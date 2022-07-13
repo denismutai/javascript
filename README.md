@@ -18,4 +18,4 @@ Example
 * Variables can also be reassigned to be given another value
 Example 
     age =currentYear-yearOfBirth;
-* __var__-Var is no longer used due to it being a potential source of many errors- the __var__ keyword does not support block-level block- it supports only global and functional scope. This means that when in declined in a block level such as inside a loop or an if statement, it can still be accessed outside the block, get reassigned and cause errors.
+3. __var__-Var is no longer used as it is a potential source of many errors- the __var__ keyword does not support block-level block- it supports only global and functional scope. As a result, when declared in a block level, such as in a __loop__ or an __if__ statement, it can still be accessed outside the block, get reassigned and cause errors. __var__ like __let__ share many similarities including the ability to reassign another value to the variable.
