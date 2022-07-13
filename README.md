@@ -18,3 +18,4 @@ Example
 * Variables can also be reassigned to be given another value
 Example 
     age =currentYear-yearOfBirth;
+* __var__-Var is no longer used due to it being a potential source of many errors- the __var__ keyword does not support block-level block- it supports only global and functional scope. This means that when in declined in a block level such as inside a loop or an if statement, it can still be accessed outside the block, get reassigned and cause errors.
