@@ -13,8 +13,8 @@ This repository is for practicing JavaScript Foundations
 2. __let__- let is used to declare variables that can be changed at any point
     let currentYear = 2022;
 * Variables can be declared and not assigned a value
-* Example 
+Example 
     let age;
 * Variables can also be reassigned to be given another value
-* Example 
+Example 
     age =currentYear-yearOfBirth;
