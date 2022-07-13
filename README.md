@@ -22,3 +22,17 @@ Example
     age =currentYear-yearOfBirth;
 3. ### __var__
 __var__ is no longer used as it is a potential source of many errors- the __var__ keyword does not support block-level block- it supports only global and functional scope. As a result, when declared in a block level, such as in a __loop__ or an __if__ statement, it can still be accessed outside the block, get reassigned and cause errors. __var__ like __let__ share many similarities including the ability to reassign another value to the variable.
+# JavaScript numbers
+## Arithmetic operators
+* (+) addition
+* (-) subtraction
+* (/) division
+* (*) multiplication
+* (**) exponentiation operator raises the first operand to the power of the second operant e.g 5 ** 2= 25
+* (%) modulus operator is also known as the remainder operator- It provides the remainder that occurs when the first operand is divided by the second operand.
+* (=)  assignment operatorm is used to assign values to variables
+* (--) decrementing operator is used to decrement a number e.g. 4-- = 3 
+* (++) incrementing operator is used to increment number e.g. 5++ = 6
+
+## OPerator precedence in JavaScript
+it describes the order in which operations are performed in JavaScript basing on the power of the operators used. The operator with the highest precedence is the first one to be implemented. However, the impact of operator precedence can be overwritten using brackets.
