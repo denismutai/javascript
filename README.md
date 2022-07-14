@@ -11,7 +11,7 @@ Has two use cases:
 * Declaring variables that are known prior to development and which one is absolutely sure a need to reassign them may not arise eg const yearOfBirth=1999; //in this case it is a sure thing that the year of birth won't change at any point and thus there will be no need to reassign it
 * It is also used to declare variables that are hardcoded and and therefore not any chance that they will be reassigned. The justification for this use case is that it helps with values that may be difficult to remember in real time. In this case, the variables are declared using uppercase e.g 
     const RED= #07745FG
-2. ### __let__
+2. ### __let__:
 __let__ is used to declare variables that can be changed at any point
     let currentYear = 2022;
 * Variables can be declared and not assigned a value
@@ -20,7 +20,7 @@ Example
 * Variables can also be reassigned to be given another value
 Example 
     age =currentYear-yearOfBirth;
-3. ### __var__
+3. ### __var__:
 __var__ is no longer used as it is a potential source of many errors- the __var__ keyword does not support block-level block- it supports only global and functional scope. As a result, when declared in a block level, such as in a __loop__ or an __if__ statement, it can still be accessed outside the block, get reassigned and cause errors. __var__ like __let__ share many similarities including the ability to reassign another value to the variable.
 # JavaScript numbers
 ## Arithmetic operators
