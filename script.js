@@ -14,3 +14,15 @@ function greet(){
     document.getElementById("denis").innerHTML=`Hello ${name}, it is so nice to see you working on JavaScript`;
 }
 button.addEventListener('click', greet);
+
+const string="The revolution will not be televised";
+console.log(string);
+const badString= string;
+console.log(badString);
+
+const firstMessage= 'I\'ve Just come back';
+console.log(`Hello my name is ${firstName} ${firstMessage}`);
+
+const helloName=prompt("What is your name");
+const hello= `Hello ${helloName} and welcome to the world of JS`;
+console.log(hello);
