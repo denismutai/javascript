@@ -23,6 +23,15 @@ console.log(badString);
 const firstMessage= 'I\'ve Just come back';
 console.log(`Hello my name is ${firstName} ${firstMessage}`);
 
-const helloName=prompt("What is your name");
-const hello= `Hello ${helloName} and welcome to the world of JS`;
-console.log(hello);
+//const helloName=prompt("What is your name");
+//const hello= `Hello ${helloName} and welcome to the world of JS`;
+//console.log(hello);
+
+console.log(hello + " " + "Concatenate using + operator");
+
+const numberOne= 123;
+const numberMessage="Concatenating numbers and strings is not a great idea";
+console.log(`${numberOne} ${numberMessage}`)
+
+const stringNumber= "12345";
+
