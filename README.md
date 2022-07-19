@@ -36,3 +36,20 @@ __var__ is no longer used as it is a potential source of many errors- the __var_
 
 ## OPerator precedence in JavaScript
 it describes the order in which operations are performed in JavaScript basing on the power of the operators used. The operator with the highest precedence is the first one to be implemented. However, the impact of operator precedence can be overwritten using brackets.
+
+## Javscript strings and string methods
+## JavaScript Conditionals
+## Javascript loops
+*   for loop- Loops through a block of code a number of times
+            for (statement 1; statement 2; statement 3) {
+                // code block to be executed
+            }
+    * Statement 1 is executed before the execution of the code block
+    * Statement 2 defines the condition for executing the code block
+    * Statement 3 is executed everytime after the code block has been executed
+
+* while loop- loops through a block of code while a specified condition is true
+* for/in-loops through the properties of an object.
+                for (key in object) {
+                    // code block to be executed
+                }

@@ -35,12 +35,56 @@
 
 // const stringNumber= "12345";
 
-let stringOne="asdfghjklmnvbghtyujfd";
-document.getElementById("string").innerHTML=stringOne.length;
+// let stringOne="asdfghjklmnvbghtyujfd";
+// document.getElementById("string").innerHTML=stringOne.length;
 
-stringOne="Apple, Banana,Kiwi"
-let part=stringOne.slice(7,13);
-part= stringOne.substring(7,13);
-part= stringOne.substring(-12,6);
-part=stringOne.substr(5,8)
-document.getElementById("string").innerHTML=part;
+// stringOne="Apple, Banana,Kiwi"
+// let part=stringOne.slice(7,13);
+// part= stringOne.substring(7,13);
+// part= stringOne.substring(-12,6);
+// part=stringOne.substr(5,8)
+// document.getElementById("string").innerHTML=part;
+
+// let string="Please visit Mozilla Docs to learn JavaScript";
+// let part=string.replace("Mozilla Docs", "My GitHub JavaScript repository");
+// document.getElementById("string").innerHTML=part;
+
+// let stringOne="Apples are my favorite fruits. Apples have vitamins"
+// let partOne= stringOne.toUpperCase();
+// let part=stringOne.concat(' ',partOne);
+// document.getElementById("string").innerHTML=part;
+
+// let stringOne="Hello World!";
+// length.stringOne;
+// let part=stringOne.padStart(4,"x");
+// document.getElementById("string").innerHTML=part;
+
+// red=true;
+// blue=false;
+
+// if(blue){
+//     console.log("This statement is false") 
+// }
+// else if (red){
+// console.log("This statement is true")
+// }
+
+// console.log(2>2);
+// let result=5>4;
+// console.log(result);
+// let a=0
+
+// cars=["Crossover", "Convertible", "Sedan","Minivan", "Coupe"]
+// let text="";
+// for (let i=0; i<cars.length;i++){
+// text +=cars[i] + "<br>";
+// }
+// document.getElementById("cars").innerHTML=text;
+
+var food=["Cheese", "Pie", "Lunch", "Breakfast"];
+console.log(typeof(food));
+var string="I am really hungry for some";
+console.log(`${string} ${food[0]}`);
+for (let i=0;i<food,length;i++){
+    console.log(`${string} ${food[i]}`)
+}
