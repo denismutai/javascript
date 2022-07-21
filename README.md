@@ -83,4 +83,11 @@ An example is when you want to run certain code when the browser listens to the 
 * the name of the event to listen to (for text boxes it is known as the __keydown__ )
 * a function to run when the event happens
 When the user presses a key, the browser will call the provided function and pass it a parameter containing information about this event, including the particular key that the browser pressed.
+### Arrow functions functions.js line 35
+Arrow functions provides you with the opportunity to pass anonymous functions without writing the word function and using an arrow(=>).
+* Example of arrow function in __Line 35 in functions.js__
+
+## Function scope and conflicts
+Scope is a very important concept when dealing with functions. 
+* When you create a function, the variables and other things defined inside the function are inside their own scope, meaning that they are unreachable to code outside the functions. The top level outside all your functions is called the __global scope__. The code in the global scope is accessible everywhere in the code. Unlike the code inside a function which are blocked inside their own scope and thus cannot be accessed by code outside the function. 
 

@@ -33,3 +33,19 @@ textBox.addEventListener('keydown',logKey);
 
     console.log(`You pressed "${event.key}".`);
   });
+
+  //In the case above the anonymous function that has been passed into the event listener is "function (event)", which in this case is anonymous. This function has successfully removed the need to define another function logKey. 
+
+// Arrow Functions
+textBox.addEventListener('keydown', (event)=>{
+
+    console.log(`You pressed "${event.key}".`);
+});
+//In the case above the the anonymous function has been written in arrow form therefore managing to escape the hassle of defining a separate logKey function and also doing without the need to mention the word "function while defining it"
+
+//if the function has one line in the curly brackets, you omit the curly brackets:
+textBox.addEventListener('keydown', (event)=>
+console.log(`You pressed on the "${event.key}".`));
+//If the function also has only 1 parameter, you can omit the brackets around the parameter
+textBox.addEventListener('keydown' ,event=>
+console.log(`You pressed "${event.key}".`));
