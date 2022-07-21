@@ -86,5 +86,6 @@ console.log(typeof(food));
 var string="I am really hungry for some";
 console.log(`${string} ${food[0]}`);
 for (let i=0;i<food,length;i++){
-    console.log(`${string} ${food[i]}`)
+    document.getElementById("functions").innerHTML=`${string} ${food[i]}`;
 }
+hello();

@@ -53,3 +53,34 @@ it describes the order in which operations are performed in JavaScript basing on
                 for (key in object) {
                     // code block to be executed
                 }
+
+
+# Functions in Javascript
+* Functions allows us to strore a piece of code that does a single task repeatedly inside a defined block and then call that block whenever you need the task done using short phrases instead of writing the lines of code all over again.
+## Built-in functions
+* JavaScript has many built-in functions that allow us to do useful things without having to write the code ourselves.
+* Common builtin functions in JS
+1. String manipulation e.g replace ()
+2. Array manipulation eg join ()
+3. Generating random numbers e.g. random()
+4. Pretty much anytime you make use of a JavaScript structure that features a pair of parentheses — () — and you're not using a common built-in language structure like a for loop, while or do...while loop, or if...else statement, you are making use of a function.
+## Functions vs Methods
+Functions that are part of an object are called methods
+## Invoking Functions
+A function has to be runned or invoked after it has been defined in order for it to be utilized
+## Function Paramters
+These are values that need to be specified while invoking a video. Some functions require parameters to be specified when being invoked in order for them to function. Example of a built-in function that requires parameters is the replace(Text to be replaced, text to replace).
+* Parameters are sometimes referred to as arguments, properties or attributes
+### Optional parameters
+Sometimes parameters are optional and thus don't need to be specified. The function, when passed with no parameters adapts a given default behaviour. Example of such function with optional parameters is the array method join() whose default behaviour is to use comas as the basis of joining values in an array.
+### Default parameters- functions.js line 12-20
+If there is need to support a default parameter, the same can be added by using the assignment operator after the name of the parameter followed by the intented default value. In cases where the argument is not provided, the function utilizes the parameter that has been supported as optional.
+### Anonymous Functions and arrow functions
+We can also create a function that has no name
+* Anonymous functions are often used when the function expects to receive another functions as a parameter. In this case the function parameter is mostly passed as an anonymous function.
+#### Anonymous function example functions.js line 20--
+An example is when you want to run certain code when the browser listens to the user perform an event such as typing into a given textbox. To achieve this, you have to call [addEventListener()]function of the text box. The function will expect you to pass at least two parameters:
+* the name of the event to listen to (for text boxes it is known as the __keydown__ )
+* a function to run when the event happens
+When the user presses a key, the browser will call the provided function and pass it a parameter containing information about this event, including the particular key that the browser pressed.
+
