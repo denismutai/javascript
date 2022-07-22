@@ -49,3 +49,15 @@ console.log(`You pressed on the "${event.key}".`));
 //If the function also has only 1 parameter, you can omit the brackets around the parameter
 textBox.addEventListener('keydown' ,event=>
 console.log(`You pressed "${event.key}".`));
+
+
+
+const helloMessage="I love JavaScript and markdown and I am a passionate web development student and a technical writer from Kenya./n My objective is to connect to all the amazing developers on tech twitter. I am on a journey towards fullstack development and will be partcipating in #100DaysOfCodeChallenge."
+
+
+function greeting(){
+console.log("Hello tech twitter")
+document.querySelector("#introduction_message").textContent=helloMessage;
+}
+
+greeting();
